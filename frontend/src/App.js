@@ -88,6 +88,7 @@ const App = () => {
     <div>
       <h2>Phonebook</h2>
       <Notification message={addPhoneMessage} />
+      <p>Test deploy in Render</p>
       <h3>Add a new</h3>
       <PersonForm addNumber={addNumber} newName={newName} handleNameChange = {handleNameChange}
         newNumber={newNumber} handleNumberChange={handleNumberChange}
